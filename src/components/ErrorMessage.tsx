@@ -1,4 +1,4 @@
-const ErrorMessage = ({ message }) => {
+const ErrorMessage = ({ message }: { message: string }) => {
   return <div>{message}</div>;
 };
 
